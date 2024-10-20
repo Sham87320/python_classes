@@ -408,6 +408,28 @@ print(dictionary.get('age',55)) - #here it says that incase age dosent exist, us
 #Dictionaty methods
 
 #Tuple
+# Logical operators exercise 
+is_magician = False 
+is_expert = True
+
+#1. Check if magician AND expert : "you are a master magician"
+#2. Check if magician but not expert: "at least you're getting there"
+#3. If you're not a magician: "You need magic powers"
+
+if is_magician and is_expert:
+    print("you are a master magician")
+elif is_magician and not is_expert:
+    print("at least you're getting there")
+elif not is_magician:
+    print("You need magic powers")
+
+ #For loops 
+ # they use for 
+for item in (2,2,3,4,5)
+print(item) #brings letter per letter
+
+
+
 
 
 

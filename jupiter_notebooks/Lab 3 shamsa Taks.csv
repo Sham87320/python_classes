@@ -1,0 +1,22 @@
+text without punctuation
+There are mainly two ways to extract data from a website
+This article discusses the steps involved in web scraping using the implementation of a Web Scraping framework of Python called Beautiful Soup Steps involved in web scraping
+Step 1 Installing the required thirdparty libraries
+Step 2 Accessing the HTML content from webpage 
+Let us try to understand this piece of code
+Note Sometimes you may get error “Not accepted” so try adding a browser user agent like below Find your user agent based on device and browser from here httpsdeviceatlascombloglistofuseragentstrings
+Step 3 Parsing the HTML content 
+A really nice thing about the BeautifulSoup library is that it is built on the top of the HTML parsing libraries like html5lib lxml htmlparser etc So  BeautifulSoup object and specify the parser library can be created at the same time In the example above
+We create a BeautifulSoup object by passing two arguments
+Now soupprettify is printed it gives the visual representation of the parse tree created from the raw HTML content Step 4 Searching and navigating through the parse tree Now we would like to extract some useful data from the HTML content The soup object contains all the data in the nested structure which could be programmatically extracted In our example we are scraping a webpage consisting of some quotes So we would like to create a program to save those quotes and all relevant information about them 
+Before moving on we recommend you to go through the HTML content of the webpage which we printed using soupprettify method and try to find a pattern or a way to navigate to the quotes
+So this was a simple example of how to create a web scraper in Python  From here you can try to scrap any other website of your choice In case of any queries post them below in comments section
+Note  Web Scraping is considered as illegal in many cases It may also cause your IP to be blocked permanently by a website This blog is contributed by Nikhil Kumar
+BeautifulSoup is a powerful library in Python used for web scraping purposes It helps in parsing HTML and XML documents making it easy to navigate search and modify the parse tree
+This script fetches an HTML page parses it and prints out all text within h1 tags
+BeautifulSoup is used for parsing HTML and XML documents It is commonly used to extract information from web pages such as gathering data from various elements within the HTML structure of the page
+Yes BeautifulSoup is excellent for web scraping due to its ability to parse complex HTML content and its userfriendly methods for navigating and searching the parse tree It can handle various markup formats and provides simple methods for extracting data which makes it a popular choice among Python developers for web scraping tasks
+The name “BeautifulSoup” is whimsical reflecting the library’s ability to turn “markup soup” — which is often how realworld HTML documents are described due to their messy and inconsistent nature — into a structured format that is easy to work with It effectively “beautifies” this “soup” of code
+The best tool for web scraping often depends on the specific needs of the project
+Each tool has its strengths and is best suited to different types of scraping tasks BeautifulSoup is often enough for basic projects and is an excellent tool for beginners due to its simplicity and ease of use
+""
